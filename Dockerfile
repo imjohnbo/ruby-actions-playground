@@ -1,6 +1,6 @@
-FROM alpine:3.10
+FROM ruby:3
 
-COPY LICENSE README.md /
+COPY LICENSE README.md action.rb /
 
 COPY entrypoint.sh /entrypoint.sh
 
