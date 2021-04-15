@@ -1,4 +1,4 @@
 #!/bin/sh -l
 
 ls -la
-ruby action.rb
+ruby /action.rb
